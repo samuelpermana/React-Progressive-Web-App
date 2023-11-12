@@ -1,0 +1,32 @@
+.profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .profile-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+  }
+  
+  .profile-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+  }
+  
+  .profile-card h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .profile-card p {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+  }
+  

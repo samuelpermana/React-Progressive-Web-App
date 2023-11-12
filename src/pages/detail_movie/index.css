@@ -1,0 +1,41 @@
+/* index.css */
+
+/* Styling for MovieDetail component */
+.MovieDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .MovieDetail h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .MovieDetail p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .MovieDetail img {
+    max-width: 100%; /* Maksimum lebar gambar adalah lebar elemen yang mengandungnya */
+    max-height: 400px; /* Atur tinggi maksimum gambar sesuai dengan preferensi Anda */
+    margin-top: 20px;
+    object-fit: contain; /* Atur object-fit sesuai kebutuhan Anda (contoh: contain) */
+  }
+  
+  /* Styling for the back link */
+  .MovieDetail a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #0077b6;
+    margin-top: 20px;
+  }
+  
+  .MovieDetail a:hover {
+    text-decoration: underline;
+  }
+  
